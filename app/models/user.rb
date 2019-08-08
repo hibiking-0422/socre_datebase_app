@@ -11,7 +11,7 @@ class User < ApplicationRecord
             question: row[5],
             study_day: row [6]
           )
-        #modelをデータベースに保存
+        #modelをデータベースに保存aaaa
           model.save
         end
     end
